@@ -6,6 +6,5 @@ module.exports = defineConfig({
     port: 14223,
     https:true
   },
-  lintOnSave:false,
   transpileDependencies: true
 })

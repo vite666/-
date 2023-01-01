@@ -319,7 +319,7 @@ export default {
     },
 
     saveData() {
-      debugger
+      // debugger
       if (this.questions.length < 1) {
         this.errorPrompt(`每份问卷至少一个问题！`);
         return;
@@ -359,7 +359,6 @@ export default {
         this.errorPrompt(`截止日期不能早于当前日期，请修改日期！`);
         return;
       }
-      this.date = date;
       yield (() => {
         this.quData.state = 1;
         this.quData.stateName = '发布中';
@@ -379,7 +378,7 @@ export default {
     quList: {
       deep: true,
       handler(list) {
-        debugger
+        // debugger
         Store.save(list);
         this.iterator && this.iterator.next();
       }

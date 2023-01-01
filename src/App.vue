@@ -17,7 +17,7 @@ export default {
 </script>
 
 <style>
-@import 'style/ResetScss.css';
+@import 'style/ResetCss.css';
 #app {
   min-width: 110rem;
   height: 100%;

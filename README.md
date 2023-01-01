@@ -4,20 +4,54 @@
 一个 vue 的纯前端项目
 
 #### 软件架构
-软件架构说明
 
+Vue3
 
-#### 安装教程
+Node 版本 v18.12.1
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+Npm 版本 v8.19.2
+
+#### 测试
+##### 在线测试
+[https://qs.vite66.cn](https://qs.vite66.cn)
+
+##### 本地测试
+克隆/下载
+
+#### 设计图
+![调查问卷网站设计图.png](调查问卷网站设计图.png)
+
+#### 实现功能
+
+![问卷管理列表.png](问卷管理列表.png)
+![问卷新建及编辑.png](问卷新建及编辑.png)
+![其他功能 .png](其他功能.png)
+
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+##### Project setup
+```
+npm install
+```
+
+##### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+##### Compiles and minifies for production
+```
+npm run build
+```
+
+##### Lints and fixes files
+```
+npm run lint
+```
+
+##### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
 
 #### 参与贡献
 
@@ -26,6 +60,11 @@
 3.  提交代码
 4.  新建 Pull Request
 
+#### 相关
+
+个人博客: [vite66.cn](https://vite66.cn)
+
+邮箱：vite66@163.com
 
 #### 特技
 
